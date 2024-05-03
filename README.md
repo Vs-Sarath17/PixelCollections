@@ -1,2 +1,2 @@
-# PixelCollections
-Pintrest_Clone
+# Pixel-Collections
+Pintrest-Clone

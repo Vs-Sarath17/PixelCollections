@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <h1>Payment Details</h1>
+    </header>
+    <section class="payment-form">
+        <form action="process_payment.php" method="post">
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" placeholder="Enter card Number"  name="card-number" required>
+
+            <label for="card-name">Cardholder Name</label>
+            <input type="text" id="card-name" placeholder="Cardholder Name"  name="card-name" required>
+
+            <label for="exp-date">Expiration Date</label>
+            <input type="text" id="exp-date" name="exp-date" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" placeholder="CVV"  required>
+
+            <button type="submit" class="pay-button">Pay Now</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
