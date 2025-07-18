@@ -1,3 +1,3 @@
 # Pixel-Collections
-Pintrest-Clone
-Doesn't include Bootstrap/Tailwind and Javascript
+A Pintrest-Clone which doesn't include Bootstrap/Tailwind and Javascript
+
